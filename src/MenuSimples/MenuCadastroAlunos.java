@@ -23,12 +23,9 @@ public class MenuCadastroAlunos {
                 break;
             default:
                 System.out.println("Opção inválida!");
+                scanner.close();
 
-        matrícula = scanner.nextInt();
-        nomeAluno = scanner.nextInt();
 
         }
-    scanner.close();
-
     }
 }
